@@ -1,0 +1,39 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(26, 32, 34);
+  color: white;
+}
+
+.nav-links {
+  color: black;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.li {
+  list-style: none;
+}
+
+.searchBar {
+  position: "relative";
+  background-color: #95adc7;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: "100%";
+  height: "20px";
+}
+
+.searchIcon {
+  padding: 2px;
+  height: "100%";
+  position: "absolute";
+  display: "flex";
+  align-items: center;
+  justify-content: "center";
+}

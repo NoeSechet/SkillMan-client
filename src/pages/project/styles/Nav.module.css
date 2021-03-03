@@ -1,0 +1,47 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(43, 94, 111);
+  color: white;
+}
+
+.nav-links {
+  color: black;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.li {
+  list-style: none;
+}
+
+.searchBar {
+  position: "relative";
+  /* background-color: #0070f3; */
+  margin-right: 3px;
+  margin-left: 3px;
+  width: "100%";
+}
+
+.searchIcon {
+  padding: 2px;
+  height: "100%";
+  position: "absolute";
+  display: "flex";
+  align-items: center;
+  justify-content: "center";
+}
+
+.inputRoot {
+  color: "inherit";
+}
+
+.inputInput {
+  padding: 1;
+  width: "100%";
+}
